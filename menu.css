@@ -1,0 +1,43 @@
+div.tabmenu{
+	width: 100%;
+	background-color: black;
+}
+
+a.Tab{ 
+	display: block;
+	width: 100%;
+	height: 100%;
+	outline-width: 30%;
+	text-decoration: none;
+	background-color: black;
+	font-size: 200%;
+	background-size: 130%;
+ }
+a.Tab:link{ color: white; }
+a.Tab:visited{ color: white; }
+a.Tab:hover{
+	color: white;
+	background-color: darkslategray;
+}
+a.Tab:active{ color: white; }
+
+a#News{
+	background-color: gray;
+}
+
+table.tab{
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+	border-top-width: none;
+	border-left-width: 5px;
+	border-right-width: 5px;
+	border-bottom-width: none;
+	border-color: white;
+	border-bottom-color: black;
+	border-bottom-width: 5px;
+}
+
+table.tab td:hover{
+	background-color: darkgray;
+}
