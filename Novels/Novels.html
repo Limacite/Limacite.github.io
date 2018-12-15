@@ -1,25 +1,55 @@
 <html>
-	<meta charset="UTF-8">
-	
-	<div class="navlist">
-		<ul>
-			<li><a href="./Novelbox/Hanabi.pdf" target="_blank">花火</a></li>
-		</ul>
-	</div>
-	<花火>
-	<div class="pdfBox">
-		<iframe src="./NovelBox/Hanabi.html" width="80%">
-			
-		</iframe>
-	</div>
-	<style type="text/css">
+  <meta charset="UTF-8">
+
+  <body>
+    <img src="../titleicon.png">
+    <link rel="stylesheet" type="text/css" href="../top.css">
+    <div align = "left">
+      Twitter:<a href = "http://twitter.com/MarineJewel"
+		 target = "_brank">@MarineJewel</a> 
+      pixiv:<a href="https://www.pixiv.net/member.php?id=22104150"
+	       target = "_blank">ハシオキウミウシ</a>
+    </div>
+    
+    <link rel="stylesheet" type="text/css" href="../menu.css">
+    <script type="text/javascript" src="../menu.js"></script>
+    
+    <div class="tabmenu" >
+      <table id="tab" class="tab" border="1">
+	<tr>
+	  <td><a class="Tab" id="News" href="../index.html" 
+		 target="contents" onclick="CLC('News')">News</a></td>
+	  <td><a class="Tab" id="Illusts" href="../Illusts/Illusts.html"
+		 target="contents" onclick="CLC('Illusts')">Illusts</a></td>
+	  <td><a class="Tab current" id="Novels" href="Novels.html"
+		 target="contents" onclick="CLC('Novels')">Novels</a></td>
+	</tr>
+      </table>
+    </div>
+    
+    <br>
+    
+    
+    <div class="navlist">
+      <ul>
+	<li><a href="./Novelbox/Hanabi.pdf" target="_blank">花火</a></li>
+      </ul>
+    </div>
+    <新作:花火>
+      <div class="pdfBox">
+	<iframe src="./NovelBox/Hanabi.html" width="80%">
+	  
+	</iframe>
+      </div>
+      <style type="text/css">
 	@media(max-width:600px){
-		iframe{
-			width: 100%;
-		}
+	iframe{
+	width: 100%;
+	}
 	}
 	iframe{
-		height: 400px;
+	height: 400px;
 	}
-	</style>
+      </style>
+  </body>
 </html>

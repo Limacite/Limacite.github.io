@@ -21,7 +21,7 @@ a.Tab:hover{
 }
 a.Tab:active{ color: white; }
 
-a#News{
+a.current{
 	background-color: gray;
 }
 
